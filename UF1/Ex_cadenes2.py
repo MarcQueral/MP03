@@ -35,6 +35,5 @@ o = frase.count("o")
 O = frase.count("O")
 u = frase.count("u")
 U = frase.count("U")
-
 vocals = a+A+e+E+i+I+o+O+u+U
 print("El numero de vocals d'aquesta frase és:", vocals)
