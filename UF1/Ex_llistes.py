@@ -5,8 +5,8 @@ cadena = input("Escriu una cadena de 4 numeros: ")
 llista = [int (cadena[0]), int (cadena[1]), int (cadena[2]), int (cadena[3])]
 print("La llista queda aixi:", llista)
 
-suma1 = sum(llista)
-print("La suma dels nombres anteriors es:", suma1)
+suma = sum(llista)
+print("La suma dels nombres anteriors es:", suma)
 
 #Demana a l'usuari un número i afegeix-lo al final de la llista amb un mètode de llista.
 
@@ -28,5 +28,5 @@ print("El numero mínim de la llista es:", min(llista))
 
 #Calcula la mitjana aritmètica de la llista a partir de les funcions internes sum() i len().
 numeros = len(llista)
-suma = sum(llista)
-print("La mitjana aritmètica és:", suma/numeros)
+suma1 = sum(llista)
+print("La mitjana aritmètica és:", suma1/numeros)
