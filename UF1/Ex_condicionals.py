@@ -72,5 +72,5 @@ elif (exercici == 3):
             print ("\nHa guanyat el jugador 2")
         elif (jugador1 == jugador2):
             print("\nHeu empatat")
-        elif (jugador1 != "tirar" or jugador2 != "tirar"):
+        else:
             print("\nHeu de tirar els daus!!")
