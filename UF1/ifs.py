@@ -18,3 +18,4 @@ elif (candidat==num):
     print("L'has encertat!!")
 else:
     print("El numero es més gran.")
+

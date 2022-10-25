@@ -20,7 +20,7 @@ x=int(input("Introdueix un nou pes per a Pepe: "))
 pesos['Pepe'].append(x)
 print("Pesos de Pepe: ",pesos['Pepe'])'''
 
-pesos = {'Pepe':[30,55,57], 'Victor':[40,64,59], 'Julia':[67,70,65]}
+pesos = {'Pepe':[50,55,57], 'Victor':[60,64,69], 'Julia':[67,70,65]}
 persona = input("Dis-me a qui vols afegir-li un pes: ")
 x=int(input("Introdueix el nou pes: "))
 pesos[persona].append(x)
