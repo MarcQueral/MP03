@@ -18,13 +18,20 @@ import time
 
 result = run (["ip", "a"], capture_output = True, text = True) 
 linies = result.stdout.split("\n")
-
 lxarxes = []
 for i in range(len(linies)):
     linies[i] = linies[i].strip()
     if (linies[i][:4] == "inet"):
-        lxarxes.append(linies[i])
+        lxarxes.append(linies[i].split(" ")[-1])
+        lxarxes.append(linies[i].split(" ")[1])
 
-print("Resultats:\n",lxarxes)
+
+print(lxarxes)
+resposta = input("\nSelecciona la interfície que vulguis saber: ")
+
+
+
+
+'''print("Resultats:\n",lxarxes)
 print("Codi Retorn:\n",result.returncode)
-print("Tipus Error:\n",result.stderr)
+print("Tipus Error:\n",result.stderr)'''
