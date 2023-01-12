@@ -24,6 +24,7 @@ for numero in my_list:
         my_list.remove(numero)
     elif numero == my_list[1]:
         my_list.remove(numero)
-    
+
+
 print("La llista amb elements únics:")
 print(my_list)
