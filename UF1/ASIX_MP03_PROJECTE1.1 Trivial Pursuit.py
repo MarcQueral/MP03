@@ -48,6 +48,6 @@ for pregunta in preguntes:
         #Aqui realitzo el canvi de torn, així quan un jugador falla el torn passa a l'altre jugador i així successivament fins que s'encerten 3 preguntes o es realitzen les 10
         print("\nCanvi de torn")
         if (jugadors[torn] == 1):
-            jugadors[torn] == 0
+            jugadors[torn] = 0
         elif (jugadors[torn] == 0):
-            jugadors[torn] == 1
+            jugadors[torn] = 1
