@@ -30,7 +30,6 @@ print("Comença", jugadors[torn])
 
 #Ara ve la part important del codi, faig un print de pregunta[0] per mostrar les preguntes amb les seves opcions
 for pregunta in preguntes:
-    pregunta = random.choice(preguntes)
     print(pregunta[0])
     resposta = int(input("\nDisme un numero del 1 al 3 segons quin creus que sigui el resultat: "))
     #Aqui indiquem que quan la resposta es igual a la posició 1 de preguntes la resposta es correcta i sumem 1 al contador 
